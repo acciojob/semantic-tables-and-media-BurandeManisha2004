@@ -1,57 +1,54 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Table and Media</title>
 </head>
-
 <body>
 
     <!-- Semantic Table -->
     <table border="1">
         <thead>
             <tr>
-                <th>Roll numbers</th>
-                <th>Names</th>
+                <th>Roll Number</th>
+                <th>Name</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>40</td>
-                <td>Manisha Buarnde</td>
+                <td>101</td>
+                <td>Amit</td>
             </tr>
             <tr>
-                <td>48</td>
-                <td>Rutuja Biradar</td>
+                <td>102</td>
+                <td>Priya</td>
             </tr>
             <tr>
-                <td>49</td>
-                <td>Aarti Patil</td>
+                <td>103</td>
+                <td>Rahul</td>
             </tr>
         </tbody>
     </table>
 
-    <!-- Required Heading -->
-    <h1>List of medias</h1>
+    <!-- Heading -->
+    <h2>List of medias</h2>
 
     <!-- Ordered List -->
     <ol>
-        <!-- Image -->
         <li>
             <img src="https://picsum.photos/id/123/200/300" alt="Sample Image">
         </li>
-
-        <!-- Video -->
         <li>
-            <video controls>
+            <video controls width="300">
                 <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
             </video>
         </li>
-
-        <!-- Audio -->
         <li>
             <audio controls>
                 <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                Your browser does not support the audio element.
             </audio>
         </li>
     </ol>
